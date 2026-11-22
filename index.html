@@ -1,0 +1,2010 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>集芳阁云搜最新 - 官方视频门户_原创影像与创作者社区</title>
+<meta name="description" content="集芳阁云搜最新官方网站，专注人文影像与生活美学视频内容的品牌平台，汇聚原创创作者，呈现高清精品内容与持续运营的内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b3a4a'/%3E%3Cpath d='M20 24h24M20 32h24M20 40h14' stroke='%23e8c07d' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='46' cy='42' r='8' fill='%23e8c07d'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jf-ink:#12242e;
+  --jf-ink-2:#1b3a4a;
+  --jf-deep:#0d1c24;
+  --jf-gold:#e8c07d;
+  --jf-gold-2:#c99b4e;
+  --jf-cream:#f6f1e7;
+  --jf-paper:#fbf8f1;
+  --jf-line:#dfd5c2;
+  --jf-muted:#6b7a80;
+  --jf-shadow:0 18px 40px -22px rgba(18,36,46,.45);
+  --jf-radius:16px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--jf-ink);
+  background:var(--jf-paper);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700;letter-spacing:.01em;}
+p{margin:0;}
+ul{margin:0;padding:0;list-style:none;}
+
+/* ========== 吸顶容器 ========== */
+.jf-sticky-shell{
+  position:sticky;
+  top:0;
+  z-index:120;
+  box-shadow:0 6px 24px -18px rgba(13,28,36,.6);
+}
+/* ========== 公告条 ========== */
+.jf-notice{
+  background:linear-gradient(90deg,#132f3d,#1f4d63 55%,#2b6079);
+  color:#f2e8d5;
+  font-size:13.5px;
+  padding:9px 18px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  overflow:hidden;
+}
+.jf-notice__tag{
+  flex:0 0 auto;
+  background:var(--jf-gold);
+  color:#16303c;
+  font-weight:700;
+  font-size:12px;
+  padding:2px 9px;
+  border-radius:20px;
+  letter-spacing:.06em;
+}
+.jf-notice__track{
+  flex:1 1 auto;
+  overflow:hidden;
+  white-space:nowrap;
+  min-width:0;
+}
+.jf-notice__link{
+  display:inline-block;
+  padding-left:100%;
+  animation:jf-marquee 26s linear infinite;
+  color:#f2e8d5;
+}
+.jf-notice__link:hover{color:var(--jf-gold);}
+.jf-notice__link b{color:var(--jf-gold);font-weight:600;}
+@keyframes jf-marquee{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-100%);}
+}
+@media (prefers-reduced-motion: reduce){
+  .jf-notice__link{animation:none;padding-left:0;}
+}
+
+/* ========== 页头 ========== */
+.jf-header{
+  background:rgba(251,248,241,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--jf-line);
+}
+.jf-header__inner{
+  max-width:1240px;
+  margin:0 auto;
+  padding:12px 22px;
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+.jf-brand{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  flex:0 0 auto;
+}
+.jf-brand__mark{
+  width:42px;height:42px;
+  border-radius:12px;
+  background:linear-gradient(145deg,#1b3a4a,#0d1c24);
+  display:grid;place-items:center;
+  box-shadow:inset 0 0 0 1.5px rgba(232,192,125,.55);
+}
+.jf-brand__mark svg{width:24px;height:24px;}
+.jf-brand__text{display:flex;flex-direction:column;line-height:1.2;}
+.jf-brand__name{font-size:18px;font-weight:800;letter-spacing:.04em;color:var(--jf-ink);}
+.jf-brand__sub{font-size:11px;color:var(--jf-muted);letter-spacing:.22em;}
+.jf-nav{
+  display:flex;
+  align-items:center;
+  gap:4px;
+  flex:1 1 auto;
+  flex-wrap:wrap;
+}
+.jf-nav__link{
+  font-size:14.5px;
+  padding:8px 12px;
+  border-radius:9px;
+  color:#334a55;
+  transition:background .18s ease,color .18s ease;
+  white-space:nowrap;
+}
+.jf-nav__link:hover,.jf-nav__link.is-active{
+  background:rgba(27,58,74,.08);
+  color:var(--jf-ink-2);
+}
+.jf-header__tools{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex:0 0 auto;
+}
+.jf-search{
+  display:flex;
+  align-items:center;
+  border:1px solid var(--jf-line);
+  border-radius:11px;
+  background:#fff;
+  padding:4px 6px 4px 12px;
+  gap:6px;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.jf-search:focus-within{border-color:var(--jf-gold-2);box-shadow:0 0 0 3px rgba(232,192,125,.28);}
+.jf-search__input{
+  border:0;outline:0;background:transparent;
+  font-size:14px;width:132px;color:var(--jf-ink);
+  padding:4px 0;
+}
+.jf-search__btn{
+  border:0;background:var(--jf-ink-2);color:#fff;
+  border-radius:8px;width:30px;height:28px;
+  display:grid;place-items:center;font-size:13px;
+}
+.jf-search__btn:hover{background:var(--jf-gold-2);color:#12242e;}
+.jf-menu-btn{
+  display:none;
+  border:1px solid var(--jf-line);
+  background:#fff;
+  border-radius:10px;
+  width:40px;height:38px;
+  font-size:18px;color:var(--jf-ink-2);
+}
+.jf-search-feedback{
+  font-size:12.5px;
+  color:var(--jf-gold-2);
+  padding:0 22px;
+  max-width:1240px;
+  margin:0 auto;
+  min-height:0;
+  overflow:hidden;
+  transition:max-height .25s ease,padding .25s ease;
+  max-height:0;
+}
+.jf-search-feedback.is-open{max-height:60px;padding-bottom:8px;}
+
+/* ========== 通用版心 ========== */
+.jf-wrap{max-width:1240px;margin:0 auto;padding:0 22px;}
+.jf-section{padding:62px 0;}
+.jf-section--tight{padding:44px 0;}
+.jf-section__head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+}
+.jf-eyebrow{
+  display:inline-block;
+  font-size:12px;
+  letter-spacing:.24em;
+  color:var(--jf-gold-2);
+  font-weight:700;
+  margin-bottom:8px;
+}
+.jf-h2{
+  font-size:clamp(22px,2.6vw,30px);
+  color:var(--jf-ink);
+  position:relative;
+  padding-left:16px;
+}
+.jf-h2::before{
+  content:"";
+  position:absolute;left:0;top:.16em;bottom:.16em;
+  width:5px;border-radius:4px;
+  background:linear-gradient(180deg,var(--jf-gold),var(--jf-gold-2));
+}
+.jf-h2__note{
+  font-size:13.5px;
+  color:var(--jf-muted);
+  font-weight:400;
+  margin-left:12px;
+}
+.jf-lead{color:#42555f;font-size:15.5px;max-width:70ch;}
+
+/* ========== S2 首屏 ========== */
+.jf-hero{
+  background:
+    radial-gradient(900px 480px at 88% -10%,rgba(232,192,125,.2),transparent 62%),
+    linear-gradient(160deg,#fbf8f1 0%,#f1ebdd 100%);
+  border-bottom:1px solid var(--jf-line);
+  overflow:hidden;
+}
+.jf-hero__inner{
+  display:grid;
+  grid-template-columns:1.04fr .96fr;
+  gap:48px;
+  align-items:center;
+  padding:56px 0 60px;
+}
+.jf-hero__title{
+  font-size:clamp(38px,5.4vw,66px);
+  line-height:1.06;
+  letter-spacing:.01em;
+  color:var(--jf-deep);
+  margin-bottom:10px;
+}
+.jf-hero__title span{
+  background:linear-gradient(92deg,var(--jf-gold-2),#a87a2c);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.jf-hero__brandline{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:12.5px;font-weight:700;letter-spacing:.2em;
+  color:var(--jf-ink-2);
+  background:rgba(255,255,255,.75);
+  border:1px solid var(--jf-line);
+  padding:5px 12px;border-radius:30px;
+  margin-bottom:20px;
+}
+.jf-hero__brandline i{
+  width:7px;height:7px;border-radius:50%;background:var(--jf-gold-2);
+  display:inline-block;
+}
+.jf-hero__desc{
+  font-size:15.6px;
+  color:#3a4d57;
+  margin:18px 0 24px;
+  max-width:56ch;
+}
+.jf-hero__actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;}
+.jf-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  border-radius:12px;
+  padding:12px 22px;
+  font-size:14.5px;font-weight:600;
+  border:1px solid transparent;
+  transition:transform .16s ease,box-shadow .2s ease,background .2s ease,color .2s ease;
+}
+.jf-btn:active{transform:translateY(1px);}
+.jf-btn--primary{
+  background:linear-gradient(135deg,#1b3a4a,#0d1c24);
+  color:#f7efdd;
+  box-shadow:0 14px 26px -18px rgba(13,28,36,.9);
+}
+.jf-btn--primary:hover{background:linear-gradient(135deg,#234a5e,#132a35);}
+.jf-btn--ghost{
+  background:rgba(255,255,255,.7);
+  border-color:var(--jf-line);
+  color:var(--jf-ink-2);
+}
+.jf-btn--ghost:hover{border-color:var(--jf-gold-2);color:#8a6320;background:#fff;}
+.jf-stats{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  max-width:520px;
+  border-top:1px solid var(--jf-line);
+  padding-top:22px;
+}
+.jf-stats__num{
+  font-size:clamp(24px,3vw,32px);
+  font-weight:800;
+  color:var(--jf-ink-2);
+  letter-spacing:.01em;
+  font-variant-numeric:tabular-nums;
+}
+.jf-stats__num em{font-style:normal;font-size:.5em;color:var(--jf-gold-2);margin-left:3px;font-weight:700;}
+.jf-stats__label{font-size:12.5px;color:var(--jf-muted);letter-spacing:.05em;}
+.jf-hero__visual{
+  position:relative;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 30px 60px -34px rgba(13,28,36,.7);
+  border:1px solid rgba(223,213,194,.9);
+  background:#0d1c24;
+}
+.jf-hero__visual img{width:100%;aspect-ratio:16/11;object-fit:cover;}
+.jf-hero__badge{
+  position:absolute;
+  left:16px;bottom:16px;
+  background:rgba(13,28,36,.72);
+  backdrop-filter:blur(6px);
+  color:#f6efdd;
+  border:1px solid rgba(232,192,125,.4);
+  border-radius:12px;
+  padding:9px 14px;
+  font-size:12.5px;
+  letter-spacing:.04em;
+  display:flex;align-items:center;gap:9px;
+}
+.jf-hero__badge b{color:var(--jf-gold);font-weight:700;}
+.jf-hero__playtop{
+  position:absolute;right:16px;top:16px;
+  background:rgba(232,192,125,.94);
+  color:#1a2f39;font-size:12px;font-weight:800;
+  padding:5px 11px;border-radius:20px;letter-spacing:.1em;
+}
+
+/* ========== 视频卡片通用 ========== */
+.jf-card{
+  background:#fff;
+  border:1px solid var(--jf-line);
+  border-radius:var(--jf-radius);
+  overflow:hidden;
+  transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
+  display:flex;flex-direction:column;
+  min-width:0;
+}
+.jf-card:hover{transform:translateY(-4px);box-shadow:var(--jf-shadow);border-color:#cdbfa3;}
+.jf-card__thumb{position:relative;background:#0d1c24;}
+.jf-card__thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.jf-card__duration{
+  position:absolute;right:9px;bottom:9px;
+  background:rgba(13,28,36,.82);color:#f3ecdc;
+  font-size:11.5px;padding:2px 7px;border-radius:6px;
+  letter-spacing:.04em;
+}
+.jf-card__body{padding:16px 17px 18px;display:flex;flex-direction:column;gap:9px;flex:1 1 auto;}
+.jf-card__title{font-size:16.5px;line-height:1.45;color:var(--jf-ink);}
+.jf-card__desc{font-size:13.6px;color:#5a6d76;line-height:1.65;}
+.jf-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.jf-tag{
+  font-size:11.5px;color:#7a6329;
+  background:rgba(232,192,125,.2);
+  border:1px solid rgba(201,155,78,.35);
+  padding:1px 8px;border-radius:20px;
+  letter-spacing:.03em;
+}
+.jf-card__meta{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  font-size:12.5px;color:var(--jf-muted);
+  margin-top:auto;padding-top:6px;
+  border-top:1px dashed #ece4d4;
+}
+.jf-card__author{display:flex;align-items:center;gap:6px;color:#3c525d;}
+.jf-avatar{
+  width:24px;height:24px;border-radius:50%;
+  display:grid;place-items:center;
+  font-size:11.5px;font-weight:700;color:#fff;
+  flex:0 0 auto;
+  letter-spacing:0;
+}
+.jf-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding-top:10px;}
+.jf-act{
+  border:1px solid var(--jf-line);
+  background:#fbf8f1;
+  color:#43565f;
+  font-size:12.5px;
+  padding:4px 11px;
+  border-radius:20px;
+  display:inline-flex;align-items:center;gap:5px;
+  transition:all .18s ease;
+}
+.jf-act:hover{border-color:var(--jf-gold-2);color:#8a6320;background:#fff8ea;}
+.jf-act.is-on{background:rgba(232,192,125,.24);border-color:var(--jf-gold-2);color:#7a5a1d;font-weight:700;}
+.jf-act--save.is-on{color:#b4503d;border-color:#e0a89c;background:#fdf1ee;}
+
+/* ========== 焦点区：大图 + 文字列表 ========== */
+.jf-focus-grid{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:28px;
+  align-items:start;
+}
+.jf-feature{
+  border-radius:20px;overflow:hidden;
+  border:1px solid var(--jf-line);
+  background:#fff;
+  box-shadow:var(--jf-shadow);
+  display:flex;flex-direction:column;
+  min-width:0;
+}
+.jf-feature img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.jf-feature__body{padding:22px 24px 24px;}
+.jf-feature__kicker{font-size:12px;letter-spacing:.18em;color:var(--jf-gold-2);font-weight:700;margin-bottom:9px;}
+.jf-feature__title{font-size:clamp(19px,2.2vw,24px);line-height:1.4;margin-bottom:10px;}
+.jf-feature__desc{font-size:14.4px;color:#4f636d;margin-bottom:14px;}
+.jf-list{display:flex;flex-direction:column;gap:0;}
+.jf-list__item{
+  display:grid;
+  grid-template-columns:38px 1fr;
+  gap:14px;
+  padding:17px 4px;
+  border-bottom:1px solid #ece4d4;
+  min-width:0;
+}
+.jf-list__item:last-child{border-bottom:0;}
+.jf-list__idx{
+  font-size:17px;font-weight:800;color:#c2b18c;
+  font-variant-numeric:tabular-nums;
+  padding-top:1px;
+}
+.jf-list__title{font-size:15.6px;margin-bottom:5px;line-height:1.5;}
+.jf-list__desc{font-size:13.4px;color:#5d707a;line-height:1.65;margin-bottom:8px;}
+
+/* ========== 视频三列 ========== */
+.jf-video-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:22px;
+}
+
+/* ========== 专题 ========== */
+.jf-topic-wrap{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:30px;
+  align-items:start;
+}
+.jf-topic-hero{
+  background:linear-gradient(155deg,#132f3d,#0d1c24);
+  color:#f0e8d6;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid rgba(232,192,125,.24);
+  display:flex;flex-direction:column;
+  min-width:0;
+}
+.jf-topic-hero img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.jf-topic-hero__body{padding:22px 24px 26px;}
+.jf-topic-hero__status{
+  display:inline-block;font-size:11.5px;letter-spacing:.1em;
+  background:rgba(232,192,125,.18);color:var(--jf-gold);
+  border:1px solid rgba(232,192,125,.42);
+  padding:2px 10px;border-radius:20px;margin-bottom:12px;
+}
+.jf-topic-hero h3{font-size:21px;margin-bottom:10px;color:#f8f2e3;}
+.jf-topic-hero p{font-size:14px;color:#c4cfd3;margin-bottom:16px;}
+.jf-topic-hero__items{display:flex;flex-direction:column;gap:10px;}
+.jf-topic-hero__items li{
+  font-size:13.6px;color:#dbe3e4;
+  padding-left:16px;position:relative;
+}
+.jf-topic-hero__items li::before{
+  content:"";position:absolute;left:0;top:.62em;
+  width:6px;height:6px;border-radius:2px;background:var(--jf-gold);
+}
+.jf-topic-side{display:flex;flex-direction:column;gap:16px;}
+.jf-topic-mini{
+  background:#fff;border:1px solid var(--jf-line);
+  border-radius:16px;padding:18px 20px;
+  transition:border-color .2s ease,transform .2s ease;
+  min-width:0;
+}
+.jf-topic-mini:hover{border-color:#cdbfa3;transform:translateX(3px);}
+.jf-topic-mini h3{font-size:17px;margin-bottom:6px;}
+.jf-topic-mini p{font-size:13.5px;color:#5d707a;margin-bottom:10px;}
+.jf-topic-mini__meta{font-size:12.3px;color:var(--jf-muted);display:flex;gap:12px;flex-wrap:wrap;}
+
+/* ========== 作者矩阵（名录行） ========== */
+.jf-authors{display:flex;flex-direction:column;gap:14px;}
+.jf-author-row{
+  display:grid;
+  grid-template-columns:56px 1fr auto;
+  gap:18px;
+  align-items:center;
+  background:#fff;
+  border:1px solid var(--jf-line);
+  border-radius:16px;
+  padding:16px 20px;
+  transition:border-color .2s ease,box-shadow .2s ease;
+  min-width:0;
+}
+.jf-author-row:hover{border-color:#cdbfa3;box-shadow:var(--jf-shadow);}
+.jf-author-row__avatar{
+  width:56px;height:56px;border-radius:16px;
+  display:grid;place-items:center;
+  font-size:21px;font-weight:800;color:#fff;
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.35);
+}
+.jf-author-row__name{font-size:16.5px;margin-bottom:3px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+.jf-author-row__field{
+  font-size:11.5px;color:#7a6329;background:rgba(232,192,125,.2);
+  border-radius:20px;padding:1px 9px;font-weight:600;
+}
+.jf-author-row__bio{font-size:13.5px;color:#5d707a;line-height:1.65;}
+.jf-author-row__nums{
+  display:flex;flex-direction:column;gap:2px;
+  font-size:12.3px;color:var(--jf-muted);text-align:right;
+  white-space:nowrap;
+}
+.jf-author-row__nums b{color:var(--jf-ink-2);font-size:14px;}
+.jf-author-row__btn{
+  margin-top:6px;
+  border:1px solid var(--jf-line);background:#fbf8f1;
+  border-radius:20px;font-size:12.3px;padding:3px 12px;color:#43565f;
+}
+.jf-author-row__btn:hover{border-color:var(--jf-gold-2);color:#8a6320;}
+
+/* ========== 评价（双列短评） ========== */
+.jf-reviews{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+.jf-review{
+  background:#fff;
+  border:1px solid var(--jf-line);
+  border-radius:16px;
+  padding:18px 20px;
+  display:flex;flex-direction:column;gap:10px;
+  min-width:0;
+}
+.jf-review:nth-child(3n+1){background:linear-gradient(170deg,#fffdf7,#fbf8f1);}
+.jf-review__stars{color:var(--jf-gold-2);font-size:13px;letter-spacing:2px;}
+.jf-review__text{font-size:14px;color:#41545e;line-height:1.7;}
+.jf-review__foot{display:flex;align-items:center;gap:9px;font-size:12.5px;color:var(--jf-muted);}
+.jf-review__name{font-weight:600;color:#334a55;}
+
+/* ========== 图文索引 ========== */
+.jf-index-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+.jf-index-item{
+  display:grid;
+  grid-template-columns:150px 1fr;
+  gap:16px;
+  background:#fff;
+  border:1px solid var(--jf-line);
+  border-radius:16px;
+  padding:14px;
+  transition:border-color .2s ease;
+  min-width:0;
+}
+.jf-index-item:hover{border-color:#cdbfa3;}
+.jf-index-item img{width:100%;height:100%;min-height:104px;aspect-ratio:4/3;object-fit:cover;border-radius:11px;}
+.jf-index-item__body{min-width:0;display:flex;flex-direction:column;gap:6px;}
+.jf-index-item__title{font-size:15.4px;line-height:1.45;}
+.jf-index-item__desc{font-size:13.2px;color:#5d707a;line-height:1.6;}
+.jf-index-item__meta{font-size:12px;color:var(--jf-muted);margin-top:auto;}
+
+/* ========== 企业动态 ========== */
+.jf-timeline{display:flex;flex-direction:column;gap:0;position:relative;}
+.jf-timeline__item{
+  display:grid;
+  grid-template-columns:96px 22px 1fr;
+  gap:16px;
+  padding:15px 0;
+  align-items:start;
+}
+.jf-timeline__date{font-size:12.8px;color:var(--jf-gold-2);font-weight:700;letter-spacing:.03em;padding-top:2px;}
+.jf-timeline__dot{position:relative;height:100%;display:flex;justify-content:center;}
+.jf-timeline__dot::before{
+  content:"";width:10px;height:10px;border-radius:50%;
+  background:var(--jf-paper);border:2px solid var(--jf-gold-2);
+  margin-top:6px;z-index:1;
+}
+.jf-timeline__dot::after{
+  content:"";position:absolute;top:18px;bottom:-18px;width:2px;
+  background:linear-gradient(180deg,#e3d8c1,transparent);
+}
+.jf-timeline__item:last-child .jf-timeline__dot::after{display:none;}
+.jf-timeline__body h3{font-size:15.6px;margin-bottom:5px;}
+.jf-timeline__body p{font-size:13.5px;color:#5d707a;}
+
+/* ========== 合作墙 ========== */
+.jf-partners{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+.jf-partner{
+  background:#fff;border:1px solid var(--jf-line);
+  border-radius:14px;padding:18px 14px;
+  text-align:center;
+  transition:border-color .2s ease,transform .2s ease;
+}
+.jf-partner:hover{border-color:var(--jf-gold-2);transform:translateY(-3px);}
+.jf-partner__logo{
+  width:44px;height:44px;border-radius:12px;margin:0 auto 10px;
+  display:grid;place-items:center;font-weight:800;color:#fff;font-size:16px;
+}
+.jf-partner__name{font-size:14px;font-weight:600;margin-bottom:3px;}
+.jf-partner__desc{font-size:12px;color:var(--jf-muted);}
+
+/* ========== FAQ ========== */
+.jf-faq{display:flex;flex-direction:column;gap:11px;max-width:920px;}
+.jf-faq details{
+  background:#fff;border:1px solid var(--jf-line);
+  border-radius:13px;padding:0 18px;
+  transition:border-color .2s ease;
+}
+.jf-faq details[open]{border-color:#cdbfa3;background:#fffdf8;}
+.jf-faq summary{
+  cursor:pointer;list-style:none;
+  font-size:15px;font-weight:600;color:var(--jf-ink-2);
+  padding:15px 30px 15px 0;
+  position:relative;
+}
+.jf-faq summary::-webkit-details-marker{display:none;}
+.jf-faq summary::after{
+  content:"+";position:absolute;right:2px;top:50%;transform:translateY(-50%);
+  font-size:19px;color:var(--jf-gold-2);font-weight:400;
+  transition:transform .2s ease;
+}
+.jf-faq details[open] summary::after{content:"–";}
+.jf-faq p{font-size:13.9px;color:#54676f;padding:0 0 16px;line-height:1.75;}
+
+/* ========== 深度解析（关键词长文） ========== */
+.jf-deep{
+  background:linear-gradient(180deg,#fbf8f1,#f4eee2);
+  border-top:1px solid var(--jf-line);
+  border-bottom:1px solid var(--jf-line);
+}
+.jf-deep__grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:38px;
+  align-items:start;
+}
+.jf-deep__sticky{position:sticky;top:150px;}
+.jf-deep__quote{
+  font-size:19px;line-height:1.65;font-weight:600;color:var(--jf-ink-2);
+  border-left:4px solid var(--jf-gold-2);
+  padding-left:16px;margin-top:18px;
+}
+.jf-deep__body p{font-size:14.8px;color:#43565f;line-height:1.92;margin-bottom:16px;}
+.jf-deep__body h3{font-size:18px;margin:24px 0 10px;color:var(--jf-ink);}
+.jf-deep__body h3:first-child{margin-top:0;}
+.jf-deep__figure{
+  border-radius:16px;overflow:hidden;
+  border:1px solid var(--jf-line);
+  margin:18px 0;
+  background:#0d1c24;
+}
+.jf-deep__figure img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.jf-deep__figure figcaption{font-size:12.5px;color:var(--jf-muted);padding:9px 14px;background:#fff;}
+
+/* ========== CTA 投稿 ========== */
+.jf-cta{
+  background:
+    radial-gradient(700px 320px at 12% 0%,rgba(232,192,125,.22),transparent 70%),
+    linear-gradient(140deg,#0d1c24,#1b3a4a);
+  color:#efe7d5;
+  border-radius:24px;
+  padding:44px 40px;
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:30px;
+  align-items:center;
+  border:1px solid rgba(232,192,125,.2);
+}
+.jf-cta h2{font-size:clamp(21px,2.6vw,28px);color:#f8f2e3;margin-bottom:10px;}
+.jf-cta p{font-size:14.4px;color:#c2ced2;max-width:52ch;}
+.jf-cta__actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end;}
+.jf-btn--gold{
+  background:linear-gradient(135deg,var(--jf-gold),var(--jf-gold-2));
+  color:#182d37;font-weight:800;
+  box-shadow:0 14px 28px -20px rgba(232,192,125,.9);
+}
+.jf-btn--gold:hover{filter:brightness(1.06);}
+.jf-btn--line{
+  border-color:rgba(232,192,125,.5);color:#f0e6cf;background:transparent;
+}
+.jf-btn--line:hover{background:rgba(232,192,125,.14);}
+
+/* ========== 页脚 ========== */
+.jf-footer{
+  background:#0b1a21;
+  color:#a9bac0;
+  padding:52px 0 26px;
+  margin-top:10px;
+  font-size:13.6px;
+}
+.jf-footer__grid{
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr 1.1fr;
+  gap:34px;
+  padding-bottom:30px;
+  border-bottom:1px solid rgba(255,255,255,.09);
+}
+.jf-footer__brand{display:flex;align-items:center;gap:11px;margin-bottom:14px;}
+.jf-footer__brand .jf-brand__name{color:#f2e9d6;}
+.jf-footer__brand .jf-brand__sub{color:#7e9299;}
+.jf-footer p{line-height:1.8;color:#8fa2a8;font-size:13.2px;}
+.jf-footer h3{font-size:14.5px;color:#e2d9c6;margin-bottom:13px;letter-spacing:.06em;}
+.jf-footer li{margin-bottom:8px;}
+.jf-footer a{color:#9fb2b8;transition:color .18s ease;}
+.jf-footer a:hover{color:var(--jf-gold);}
+.jf-footer__bottom{
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:20px;font-size:12.5px;color:#7b8f96;
+}
+.jf-footer__bottom span{display:inline-block;}
+
+/* ========== 回到顶部 ========== */
+.jf-top{
+  position:fixed;right:22px;bottom:26px;
+  width:46px;height:46px;border-radius:14px;
+  border:1px solid var(--jf-line);
+  background:rgba(251,248,241,.95);
+  color:var(--jf-ink-2);
+  font-size:18px;
+  display:grid;place-items:center;
+  box-shadow:var(--jf-shadow);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:all .25s ease;
+  z-index:90;
+}
+.jf-top.is-show{opacity:1;visibility:visible;transform:translateY(0);}
+.jf-top:hover{background:var(--jf-gold);color:#16303c;border-color:var(--jf-gold-2);}
+
+/* ========== 弹窗与 Toast ========== */
+.jf-modal{
+  position:fixed;inset:0;z-index:200;
+  display:none;place-items:center;
+  background:rgba(9,20,26,.6);
+  backdrop-filter:blur(3px);
+  padding:20px;
+}
+.jf-modal.is-open{display:grid;}
+.jf-modal__box{
+  background:#fbf8f1;
+  border-radius:18px;
+  max-width:520px;width:100%;
+  max-height:82vh;overflow:auto;
+  padding:26px 26px 22px;
+  border:1px solid var(--jf-line);
+  box-shadow:0 40px 80px -30px rgba(0,0,0,.6);
+}
+.jf-modal__box h3{font-size:19px;margin-bottom:8px;color:var(--jf-ink);}
+.jf-modal__box p{font-size:14px;color:#4f636d;line-height:1.75;margin-bottom:14px;}
+.jf-modal__head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;}
+.jf-modal__close{
+  border:1px solid var(--jf-line);background:#fff;
+  width:32px;height:32px;border-radius:9px;
+  font-size:16px;color:#5d707a;flex:0 0 auto;
+}
+.jf-modal__close:hover{color:#b4503d;border-color:#e0a89c;}
+.jf-field{display:flex;flex-direction:column;gap:5px;margin-bottom:12px;}
+.jf-field label{font-size:12.8px;color:var(--jf-muted);}
+.jf-field input,.jf-field textarea{
+  border:1px solid var(--jf-line);border-radius:10px;
+  padding:9px 12px;font-size:14px;font-family:inherit;
+  background:#fff;color:var(--jf-ink);outline:none;
+  resize:vertical;
+}
+.jf-field input:focus,.jf-field textarea:focus{border-color:var(--jf-gold-2);box-shadow:0 0 0 3px rgba(232,192,125,.25);}
+.jf-form-tip{font-size:12.8px;color:var(--jf-gold-2);min-height:18px;}
+.jf-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,16px);
+  background:#132f3d;color:#f3ecda;
+  border:1px solid rgba(232,192,125,.45);
+  padding:10px 20px;border-radius:30px;
+  font-size:13.5px;z-index:300;
+  opacity:0;visibility:hidden;
+  transition:all .25s ease;
+  box-shadow:0 20px 40px -20px rgba(0,0,0,.6);
+  max-width:calc(100vw - 40px);
+  text-align:center;
+}
+.jf-toast.is-show{opacity:1;visibility:visible;transform:translate(-50%,0);}
+
+/* ========== 响应式 ========== */
+@media (max-width:1080px){
+  .jf-hero__inner{grid-template-columns:1fr;gap:32px;}
+  .jf-hero__visual{order:-1;}
+  .jf-focus-grid,.jf-topic-wrap,.jf-deep__grid{grid-template-columns:1fr;}
+  .jf-deep__sticky{position:static;}
+  .jf-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .jf-partners{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .jf-cta{grid-template-columns:1fr;}
+  .jf-cta__actions{justify-content:flex-start;}
+  .jf-footer__grid{grid-template-columns:1fr 1fr;gap:26px;}
+}
+@media (max-width:760px){
+  .jf-header__inner{flex-wrap:wrap;gap:12px;padding:10px 16px;}
+  .jf-menu-btn{display:grid;place-items:center;order:3;margin-left:auto;}
+  .jf-nav{
+    order:5;width:100%;flex-direction:column;align-items:stretch;
+    display:none;gap:2px;padding-bottom:8px;
+  }
+  .jf-nav.is-open{display:flex;}
+  .jf-nav__link{padding:10px 12px;}
+  .jf-header__tools{order:2;margin-left:auto;}
+  .jf-search__input{width:86px;}
+  .jf-wrap{padding:0 16px;}
+  .jf-section{padding:44px 0;}
+  .jf-video-grid,.jf-reviews,.jf-index-grid{grid-template-columns:1fr;}
+  .jf-index-item{grid-template-columns:112px 1fr;}
+  .jf-author-row{grid-template-columns:46px 1fr;gap:14px;}
+  .jf-author-row__nums{grid-column:1/-1;text-align:left;flex-direction:row;gap:16px;flex-wrap:wrap;}
+  .jf-authors .jf-author-row__avatar{width:46px;height:46px;border-radius:13px;font-size:17px;}
+  .jf-timeline__item{grid-template-columns:70px 16px 1fr;gap:10px;}
+  .jf-cta{padding:30px 22px;border-radius:18px;}
+  .jf-footer__grid{grid-template-columns:1fr;}
+  .jf-stats{grid-template-columns:1fr 1fr;gap:16px;}
+  .jf-stats > div:last-child{grid-column:1/-1;}
+  .jf-notice{font-size:12.5px;gap:8px;padding:8px 12px;}
+  .jf-deep__quote{font-size:16.5px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- S1 公告条 + 页头（同为吸顶） -->
+<div class="jf-sticky-shell">
+  <div class="jf-notice" role="region" aria-label="站点公告">
+    <span class="jf-notice__tag">最新发布</span>
+    <div class="jf-notice__track">
+      <a class="jf-notice__link" href="#jf-updates">
+        <b>《山城早市十二时辰》</b> 高清正片上线 · <b>「芳华新声」创作挑战赛</b> 报名通道开放至 12 月 8 日 · <b>集芳阁云搜最新</b> 创作者扶持计划第二期开放 <b>上传</b> · 冬季专题《炉火与人间》已更新 3 集 · 官方发布内容索引工具 v2.4 支持标签筛选
+      </a>
+    </div>
+  </div>
+  <header class="jf-header">
+    <div class="jf-header__inner">
+      <a class="jf-brand" href="#jf-top-anchor" aria-label="集芳阁云搜最新 官方网站首页">
+        <span class="jf-brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 7h14M5 12h14M5 17h8" stroke="#e8c07d" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="17.5" cy="16.5" r="3.2" stroke="#e8c07d" stroke-width="1.8"/>
+          </svg>
+        </span>
+        <span class="jf-brand__text">
+          <span class="jf-brand__name">集芳阁云搜最新</span>
+          <span class="jf-brand__sub">JIFANG VIDEO</span>
+        </span>
+      </a>
+      <nav class="jf-nav" id="jf-nav" aria-label="主导航">
+        <a class="jf-nav__link" href="#jf-focus">焦点影像</a>
+        <a class="jf-nav__link" href="#jf-videos">视频内容</a>
+        <a class="jf-nav__link" href="#jf-topics">专题企划</a>
+        <a class="jf-nav__link" href="#jf-authors">创作者</a>
+        <a class="jf-nav__link" href="#jf-deep">品牌解析</a>
+        <a class="jf-nav__link" href="#jf-reviews">用户口碑</a>
+        <a class="jf-nav__link" href="#jf-updates">企业动态</a>
+        <a class="jf-nav__link" href="#jf-faq">帮助中心</a>
+      </nav>
+      <div class="jf-header__tools">
+        <div class="jf-search">
+          <input class="jf-search__input" id="jf-search-input" type="search" placeholder="搜索视频 / 创作者" aria-label="站内搜索">
+          <button class="jf-search__btn" id="jf-search-btn" type="button" aria-label="搜索">搜</button>
+        </div>
+        <button class="jf-menu-btn" id="jf-menu-btn" type="button" aria-label="展开导航菜单" aria-expanded="false" aria-controls="jf-nav">☰</button>
+      </div>
+    </div>
+    <div class="jf-search-feedback" id="jf-search-feedback" role="status" aria-live="polite"></div>
+  </header>
+</div>
+
+<span id="jf-top-anchor"></span>
+
+<main>
+
+  <!-- S2 品牌首屏 -->
+  <section class="jf-hero" aria-labelledby="jf-hero-title">
+    <div class="jf-wrap">
+      <div class="jf-hero__inner">
+        <div class="jf-hero__copy">
+          <span class="jf-hero__brandline"><i aria-hidden="true"></i>品牌官方视频门户 · 持续运营第八年</span>
+          <h1 class="jf-hero__title" id="jf-hero-title">集芳阁云搜<span>最新</span></h1>
+          <p class="jf-hero__desc">
+            集芳阁云搜最新是面向人文影像与生活美学领域的视频品牌平台。我们以原创、正版、高清为标准，为创作者与企业搭建值得信赖的内容生态，让每一段真实的记录都被看见、被讨论、被长久留存。
+          </p>
+          <div class="jf-hero__actions">
+            <a class="jf-btn jf-btn--primary" href="#jf-videos">观看精品内容 →</a>
+            <a class="jf-btn jf-btn--ghost" href="#jf-deep">了解品牌故事</a>
+            <button class="jf-btn jf-btn--ghost" type="button" data-jf-open="submit">我要投稿</button>
+          </div>
+          <div class="jf-stats" aria-label="平台核心数据">
+            <div>
+              <div class="jf-stats__num" data-jf-count="2860">0<em>+</em></div>
+              <div class="jf-stats__label">原创高清视频存量</div>
+            </div>
+            <div>
+              <div class="jf-stats__num" data-jf-count="412">0<em>位</em></div>
+              <div class="jf-stats__label">签约与入驻创作者</div>
+            </div>
+            <div>
+              <div class="jf-stats__num" data-jf-count="1936">0<em>万</em></div>
+              <div class="jf-stats__label">累计播放（次）</div>
+            </div>
+          </div>
+        </div>
+        <div class="jf-hero__visual">
+          <span class="jf-hero__playtop">官方首映</span>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f0c98a'/%3E%3Cstop offset='1' stop-color='%23c97c4e'/%3E%3C/linearGradient%3E%3ClinearGradient id='hill' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23132f3d'/%3E%3Cstop offset='1' stop-color='%231f4d63'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23sky)'/%3E%3Ccircle cx='600' cy='150' r='72' fill='%23fff3d6' opacity='.85'/%3E%3Cpath d='M0 340 L160 240 L330 330 L470 250 L640 360 L800 300 L800 550 L0 550 Z' fill='url(%23hill)' opacity='.92'/%3E%3Cpath d='M0 420 L120 370 L260 430 L420 370 L560 440 L700 390 L800 430 L800 550 L0 550 Z' fill='%230d1c24'/%3E%3Cg stroke='%23e8c07d' stroke-width='3' opacity='.7'%3E%3Cpath d='M120 470 L120 410 M120 410 L100 430 M120 410 L140 430' fill='none'/%3E%3Cpath d='M680 470 L680 400 M680 400 L658 424 M680 400 L702 424' fill='none'/%3E%3C/g%3E%3Crect x='330' y='300' width='150' height='110' rx='4' fill='%23f6f1e7' opacity='.55'/%3E%3Crect x='352' y='322' width='44' height='40' fill='%23132f3d' opacity='.5'/%3E%3Crect x='412' y='322' width='44' height='66' fill='%23132f3d' opacity='.5'/%3E%3C/svg%3E" alt="集芳阁云搜最新官方首映画面：黄昏山路与旅人剪影的影像封面" width="800" height="550" loading="eager">
+          <div class="jf-hero__badge"><b>本周首映</b>《向晚的第七道山梁》· 4K 高清</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容：一幅重点大图 + 文字列表 -->
+  <section class="jf-section" id="jf-focus" aria-labelledby="jf-focus-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">FOCUS · 焦点</span>
+          <h2 class="jf-h2" id="jf-focus-title">本周焦点影像<span class="jf-h2__note">编辑部与社区共同推荐</span></h2>
+        </div>
+        <p class="jf-lead">从城市街巷到山野林间，集芳阁云搜最新本周精选四组影像，全部为官方发布的高清正版内容，附完整创作手记。</p>
+      </div>
+
+      <div class="jf-focus-grid">
+        <article class="jf-feature">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='b1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232c4a55'/%3E%3Cstop offset='1' stop-color='%230e2029'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23b1)'/%3E%3Cg opacity='.24'%3E%3Ccircle cx='150' cy='120' r='90' fill='%23e8c07d'/%3E%3Ccircle cx='650' cy='330' r='120' fill='%23e8c07d'/%3E%3C/g%3E%3Cg stroke='%23e8c07d' stroke-width='2' fill='none' opacity='.85'%3E%3Cpath d='M60 380 L260 300 L420 350 L600 270 L740 330'/%3E%3Cpath d='M60 400 L240 342 L430 392 L610 312 L740 366'/%3E%3C/g%3E%3Crect x='300' y='150' width='200' height='120' rx='6' fill='%23f6f1e7' opacity='.14'/%3E%3Ctext x='400' y='222' font-family='sans-serif' font-size='28' fill='%23e8c07d' text-anchor='middle' opacity='.9'%3E山城早市%3C/text%3E%3C/svg%3E" alt="《山城早市十二时辰》官方封面：清晨雾气中的老城台阶与摊位轮廓" width="800" height="450" loading="lazy">
+          <div class="jf-feature__body">
+            <div class="jf-feature__kicker">官方发布 · 纪录长片</div>
+            <h3 class="jf-feature__title">《山城早市十二时辰》：一条坡道上的城市呼吸</h3>
+            <p class="jf-feature__desc">摄制组连续跟随三条老街的早市拍摄 11 天，从凌晨四点的第一锅豆浆到收摊后的空凳。影片记录了摊主、跑腿、学生与老居民在同一段坡道上的日常交集，也记录了这座城市独有的上下城关系。</p>
+            <div class="jf-tags">
+              <span class="jf-tag">城市探索</span>
+              <span class="jf-tag">在地文化</span>
+              <span class="jf-tag">日常记录</span>
+            </div>
+            <div class="jf-card__meta" style="border-top:0;padding-top:12px;">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#2b6079,#0d1c24)">阁</span>官方影像组</span>
+              <span>播放 42.6 万</span>
+              <span>点赞 1.8 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>18240</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-copy>复制链接</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="jf-list">
+          <div class="jf-list__item">
+            <div class="jf-list__idx">01</div>
+            <div>
+              <h3 class="jf-list__title">《炉火与人间》第一集：旧铁炉里的冬天</h3>
+              <p class="jf-list__desc">冬季专题开篇，拍一间开了二十七年的大众浴室的锅炉房。火、蒸汽、搓背师傅的手，构成城市冬天最暖的一段循环。</p>
+              <div class="jf-tags"><span class="jf-tag">生活方式</span><span class="jf-tag">治愈影像</span></div>
+              <div class="jf-actions">
+                <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>9640</b></button>
+                <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+          <div class="jf-list__item">
+            <div class="jf-list__idx">02</div>
+            <div>
+              <h3 class="jf-list__title">《三分钟学会拍一碗面》教程干货合集</h3>
+              <p class="jf-list__desc">从布光、构图到收音，创作者「阿砾」用真实拍摄现场示范如何拍好一碗家常面，附带完整的设备清单与参数。</p>
+              <div class="jf-tags"><span class="jf-tag">教程干货</span><span class="jf-tag">美食烹饪</span></div>
+              <div class="jf-actions">
+                <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>7125</b></button>
+                <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+          <div class="jf-list__item">
+            <div class="jf-list__idx">03</div>
+            <div>
+              <h3 class="jf-list__title">《修复一把椅子要多久》手作纪录</h3>
+              <p class="jf-list__desc">木作创作者记录一把被丢弃的旧木椅从拆解、补榫、上蜡到重新使用的全过程，旁白讲述物与人之间的陪伴。</p>
+              <div class="jf-tags"><span class="jf-tag">手作DIY</span><span class="jf-tag">匠心</span></div>
+              <div class="jf-actions">
+                <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>5432</b></button>
+                <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 视频内容：三列卡片 -->
+  <section class="jf-section jf-section--tight" id="jf-videos" aria-labelledby="jf-videos-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">VIDEO · 视频内容</span>
+          <h2 class="jf-h2" id="jf-videos-title">正在更新的精品内容<span class="jf-h2__note">每日 20:00 官方发布</span></h2>
+        </div>
+        <p class="jf-lead">集芳阁云搜最新以垂直领域内容运营见长，视频覆盖纪录片、教程、访谈与现场影像，全部支持高清播放与多端收藏。</p>
+      </div>
+
+      <div class="jf-video-grid">
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f3e7d2'/%3E%3Ccircle cx='500' cy='90' r='58' fill='%23e8c07d'/%3E%3Cpath d='M0 260 L140 200 L300 250 L440 190 L580 250 L640 220 L640 360 L0 360 Z' fill='%232b6079'/%3E%3Cpath d='M0 300 L160 250 L330 300 L500 250 L640 296 L640 360 L0 360 Z' fill='%23132f3d'/%3E%3Cg fill='%23f6f1e7' opacity='.8'%3E%3Crect x='250' y='286' width='60' height='34' rx='2'/%3E%3Crect x='330' y='286' width='40' height='34' rx='2' fill='%23c99b4e'/%3E%3C/g%3E%3C/svg%3E" alt="《河岸上的书店》视频封面：河岸村落与白色书店屋顶的清晨景色" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">12:48</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《河岸上的书店》：一个人在村镇开书店的第六年</h3>
+            <p class="jf-card__desc">一部安静的短纪录片。店主每天开门前会把书搬到院子里晒，午后给学生留一张桌子。镜头记录了他与常客之间不需要解释的默契。</p>
+            <div class="jf-tags"><span class="jf-tag">人物访谈</span><span class="jf-tag">生活方式</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#c99b4e,#8a6320)">周</span>周与舟</span>
+              <span>播放 12.4 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>4860</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%230d1c24'/%3E%3Cg stroke='%23e8c07d' stroke-width='2.4' opacity='.9' fill='none'%3E%3Cpath d='M80 300 L80 180 L200 180 L200 300'/%3E%3Cpath d='M240 300 L240 140 L360 140 L360 300'/%3E%3Cpath d='M400 300 L400 200 L520 200 L520 300'/%3E%3C/g%3E%3Cg fill='%232b6079'%3E%3Crect x='60' y='300' width='500' height='14'/%3E%3C/g%3E%3Ccircle cx='520' cy='90' r='40' fill='%23f0c98a' opacity='.55'/%3E%3C/svg%3E" alt="《给老楼装一部无障碍电梯》视频封面：老式居民楼立面与电梯井结构示意" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">21:05</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《给老楼装一部无障碍电梯》社区观察实录</h3>
+            <p class="jf-card__desc">从业主协商、方案比价到施工落地，全流程记录一栋 1987 年建成的居民楼加装电梯的两年。也记录了几户人家之间的妥协与体谅。</p>
+            <div class="jf-tags"><span class="jf-tag">行业观察</span><span class="jf-tag">社会责任</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#2b6079,#132f3d)">沥</span>沥川记录</span>
+              <span>播放 9.7 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>6235</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%231f4d63'/%3E%3Cg fill='%23f6f1e7' opacity='.9'%3E%3Crect x='60' y='240' width='110' height='60' rx='4'/%3E%3Crect x='190' y='210' width='130' height='90' rx='4'/%3E%3Crect x='340' y='250' width='100' height='50' rx='4'/%3E%3C/g%3E%3Cg stroke='%23e8c07d' stroke-width='3' fill='none'%3E%3Cpath d='M60 200 L170 150 L300 190 L430 140 L590 180'/%3E%3C/g%3E%3Ccircle cx='480' cy='80' r='34' fill='%23f0c98a'/%3E%3C/svg%3E" alt="《我从老屋搬走前最后一天》视频封面：黄昏中堆满纸箱的老房子立面" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">08:32</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《我从老屋搬走前最后一天》随笔影像</h3>
+            <p class="jf-card__desc">没有解说词，只有环境声。清晨的水龙头、午后的窗帘、傍晚搬空后的回声。一次诚实的告别，也是一次关于陪伴的练习。</p>
+            <div class="jf-tags"><span class="jf-tag">情感故事</span><span class="jf-tag">治愈影像</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#8a6320,#c99b4e)">拾</span>拾光纪事</span>
+              <span>播放 15.2 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>10340</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f6f1e7'/%3E%3Cg stroke='%23132f3d' stroke-width='3' fill='none'%3E%3Cpath d='M100 280 C160 200 240 300 320 220 C400 140 480 260 560 190'/%3E%3C/g%3E%3Cg fill='%232b6079'%3E%3Ccircle cx='120' cy='270' r='9'/%3E%3Ccircle cx='320' cy='220' r='9'/%3E%3Ccircle cx='540' cy='200' r='9'/%3E%3C/g%3E%3Cg stroke='%23c99b4e' stroke-width='2' opacity='.6'%3E%3Cpath d='M80 320 H580'/%3E%3Cpath d='M80 340 H580'/%3E%3C/g%3E%3C/svg%3E" alt="《骑行三百公里的地图之外》视频封面：手绘路线线条与途经点标记" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">16:20</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《骑行三百公里的地图之外》户外见闻</h3>
+            <p class="jf-card__desc">两个人在三天里骑过四段省道，中途偏离既定路线，误入一座废弃的镇子。视频保留了大部分迷路和争吵，也保留了他们最后达成的和解。</p>
+            <div class="jf-tags"><span class="jf-tag">户外活动</span><span class="jf-tag">旅行见闻</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#0d1c24,#2b6079)">野</span>野径计划</span>
+              <span>播放 7.8 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>3920</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23132f3d'/%3E%3Cg stroke='%23e8c07d' stroke-width='2' fill='none' opacity='.8'%3E%3Crect x='90' y='90' width='160' height='110' rx='6'/%3E%3Crect x='290' y='150' width='260' height='120' rx='6'/%3E%3C/g%3E%3Cg fill='%23f6f1e7' opacity='.75'%3E%3Crect x='110' y='112' width='120' height='8' rx='4'/%3E%3Crect x='110' y='132' width='90' height='8' rx='4'/%3E%3Crect x='310' y='172' width='180' height='8' rx='4'/%3E%3Crect x='310' y='194' width='140' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="《一块屏幕背后的剪辑日常》视频封面：剪辑时间轴与素材窗口平面示意" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">14:12</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《一块屏幕背后的剪辑日常》创作幕后</h3>
+            <p class="jf-card__desc">把 8 小时素材剪成 14 分钟，中间删掉了什么、为什么删。创作者公开了自己的剪辑工程结构与三条取舍原则，适合刚入门的影像作者参考。</p>
+            <div class="jf-tags"><span class="jf-tag">教程干货</span><span class="jf-tag">创作幕后</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#2b6079,#8a6320)">砾</span>阿砾</span>
+              <span>播放 11.1 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>8740</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jf-card">
+          <div class="jf-card__thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f0e3cd'/%3E%3Cg stroke='%238a6320' stroke-width='3' fill='none'%3E%3Cpath d='M80 300 L80 120 L240 120 L240 300'/%3E%3Cpath d='M120 190 H200 M120 230 H200'/%3E%3C/g%3E%3Cg fill='%232b6079'%3E%3Ccircle cx='420' cy='160' r='46'/%3E%3C/g%3E%3Cg fill='%23132f3d'%3E%3Crect x='380' y='240' width='240' height='60' rx='6'/%3E%3C/g%3E%3Cg fill='%23e8c07d'%3E%3Crect x='400' y='258' width='100' height='10' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="《一间厨房的四季》视频封面：厨房灶台与窗外四季色调的构图" width="640" height="360" loading="lazy">
+            <span class="jf-card__duration">19:36</span>
+          </div>
+          <div class="jf-card__body">
+            <h3 class="jf-card__title">《一间厨房的四季》美食烹饪纪录</h3>
+            <p class="jf-card__desc">同一台灶、同一扇窗，拍了整整一年。春天腌笋、夏天做凉粉、秋天熬果酱、冬天炖一锅汤。菜品会重复，但日子不会。</p>
+            <div class="jf-tags"><span class="jf-tag">美食烹饪</span><span class="jf-tag">日常记录</span></div>
+            <div class="jf-card__meta">
+              <span class="jf-card__author"><span class="jf-avatar" style="background:linear-gradient(135deg,#c99b4e,#2b6079)">食</span>食岁记</span>
+              <span>播放 18.6 万</span>
+            </div>
+            <div class="jf-actions">
+              <button class="jf-act" type="button" data-jf-like>♡ 点赞 <b>13920</b></button>
+              <button class="jf-act jf-act--save" type="button" data-jf-save>☆ 收藏</button>
+              <button class="jf-act" type="button" data-jf-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="jf-section" id="jf-topics" aria-labelledby="jf-topics-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">SERIES · 专题企划</span>
+          <h2 class="jf-h2" id="jf-topics-title">集芳阁云搜最新专题企划<span class="jf-h2__note">官方企划 · 持续更新</span></h2>
+        </div>
+        <p class="jf-lead">专题是平台长期运营的核心形态，每个专题由编辑部策划、多位创作者共同完成，呈现多元而立体的真实生活切面。</p>
+      </div>
+
+      <div class="jf-topic-wrap">
+        <article class="jf-topic-hero">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23132f3d'/%3E%3Cg opacity='.9'%3E%3Ccircle cx='400' cy='250' r='120' fill='%23c9743e' opacity='.55'/%3E%3Ccircle cx='400' cy='250' r='78' fill='%23e8c07d' opacity='.8'/%3E%3C/g%3E%3Cg stroke='%23f6f1e7' stroke-width='3' fill='none' opacity='.6'%3E%3Cpath d='M140 380 L240 300 L360 350 L480 270 L620 340 L700 300'/%3E%3C/g%3E%3Ctext x='400' y='120' font-family='sans-serif' font-size='34' fill='%23f6f1e7' text-anchor='middle'%3E炉火与人间%3C/text%3E%3C/svg%3E" alt="冬季专题《炉火与人间》头图：炉火映照的暖色夜景与山脊剪影" width="800" height="450" loading="lazy">
+          <div class="jf-topic-hero__body">
+            <span class="jf-topic-hero__status">更新中 · 已上线 3 / 6 集</span>
+            <h3>冬季专题《炉火与人间》</h3>
+            <p>用一个冬天，拍下五座城市里与火有关的日常：浴室锅炉房、街边烤炉、面馆灶台、修车铺的取暖灯，以及一间没有暖气的老屋。专题希望回答一个朴素的问题——在寒冷的季节里，人们依靠什么把日子过得下去。</p>
+            <ul class="jf-topic-hero__items">
+              <li>第一集《旧铁炉里的冬天》：一间开了二十七年的大众浴室</li>
+              <li>第二集《面馆的第三口锅》：凌晨三点开始熬的高汤</li>
+              <li>第三集《修车铺的暖灯》：一条街最晚熄灭的灯</li>
+            </ul>
+            <div class="jf-actions" style="padding-top:16px;">
+              <button class="jf-btn jf-btn--gold" type="button" data-jf-open="submit">参与投稿</button>
+              <button class="jf-act" type="button" data-jf-copy style="background:transparent;color:#e8c07d;border-color:rgba(232,192,125,.5);">复制专题链接</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="jf-topic-side">
+          <article class="jf-topic-mini">
+            <h3>「芳华新声」创作挑战赛</h3>
+            <p>面向全部创作者的年度影像挑战，主题为“我身边被低估的人”。官方提供命题素材包与拍摄指南，评审由编辑部与社区共同投票产生。</p>
+            <div class="jf-topic-mini__meta">
+              <span>报名中 · 截止 12 月 8 日</span>
+              <span>已有 168 份投稿</span>
+            </div>
+          </article>
+          <article class="jf-topic-mini">
+            <h3>《小城十二点》在地文化企划</h3>
+            <p>在十二个小城的午夜十二点开机，记录同一时刻不同街区的光、声音和人。专题采用同一套拍摄规范，保证影像语言的一致性。</p>
+            <div class="jf-topic-mini__meta">
+              <span>已完结 · 12 集全</span>
+              <span>累计播放 236 万</span>
+            </div>
+          </article>
+          <article class="jf-topic-mini">
+            <h3>《手艺人的第八年》匠心系列</h3>
+            <p>跟踪拍摄六位手艺人第八年的工作状态，不做煽情旁白，只呈现材料、工具与时间在三者之间留下的痕迹。</p>
+            <div class="jf-topic-mini__meta">
+              <span>更新中 · 已上线 4 集</span>
+              <span>口碑评分 9.4</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵（名录行） -->
+  <section class="jf-section jf-section--tight" id="jf-authors" aria-labelledby="jf-authors-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">CREATORS · 创作者</span>
+          <h2 class="jf-h2" id="jf-authors-title">入驻与签约创作者<span class="jf-h2__note">内容生态的中坚力量</span></h2>
+        </div>
+        <p class="jf-lead">集芳阁云搜最新持续运营创作者扶持计划，为影像作者提供选题、设备、剪辑与发行支持，让专业与热爱都能获得回报。</p>
+      </div>
+
+      <div class="jf-authors">
+        <article class="jf-author-row">
+          <div class="jf-author-row__avatar" style="background:linear-gradient(135deg,#2b6079,#0d1c24)">周</div>
+          <div>
+            <h3 class="jf-author-row__name">周与舟 <span class="jf-author-row__field">人物访谈</span></h3>
+            <p class="jf-author-row__bio">前纸媒记者，现独立纪录片作者。擅长用长时间跟拍换取人物的松弛状态，作品多以小城手艺人、书店经营者为主角。相信慢下来的镜头才有耐心，也相信倾听本身就是一种创作方法。</p>
+          </div>
+          <div class="jf-author-row__nums">
+            <div><b>86</b> 部作品</div>
+            <div><b>12.4 万</b> 粉丝</div>
+            <button class="jf-author-row__btn" type="button" data-jf-author="周与舟">查看主页</button>
+          </div>
+        </article>
+
+        <article class="jf-author-row">
+          <div class="jf-author-row__avatar" style="background:linear-gradient(135deg,#c99b4e,#8a6320)">砾</div>
+          <div>
+            <h3 class="jf-author-row__name">阿砾 <span class="jf-author-row__field">教程干货</span></h3>
+            <p class="jf-author-row__bio">商业摄影出身，转型做视频教学四年。课程特点是“先讲为什么，再讲怎么做”，从不堆参数。擅长把复杂布光拆成三步能记住的现场动作，被社区称为最愿意讲失败的老师。</p>
+          </div>
+          <div class="jf-author-row__nums">
+            <div><b>142</b> 部作品</div>
+            <div><b>21.7 万</b> 粉丝</div>
+            <button class="jf-author-row__btn" type="button" data-jf-author="阿砾">查看主页</button>
+          </div>
+        </article>
+
+        <article class="jf-author-row">
+          <div class="jf-author-row__avatar" style="background:linear-gradient(135deg,#0d1c24,#2b6079)">沥</div>
+          <div>
+            <h3 class="jf-author-row__name">沥川记录 <span class="jf-author-row__field">行业观察</span></h3>
+            <p class="jf-author-row__bio">城市规划专业背景，长期关注社区更新与公共空间。作品习惯从一条街、一栋楼、一个具体的人开始，把宏大的议题落到可感知的日常细节里，是社区里讨论度最高的作者之一。</p>
+          </div>
+          <div class="jf-author-row__nums">
+            <div><b>57</b> 部作品</div>
+            <div><b>8.9 万</b> 粉丝</div>
+            <button class="jf-author-row__btn" type="button" data-jf-author="沥川记录">查看主页</button>
+          </div>
+        </article>
+
+        <article class="jf-author-row">
+          <div class="jf-author-row__avatar" style="background:linear-gradient(135deg,#8a6320,#c99b4e)">拾</div>
+          <div>
+            <h3 class="jf-author-row__name">拾光纪事 <span class="jf-author-row__field">治愈影像</span></h3>
+            <p class="jf-author-row__bio">擅长环境声与自然光的情绪影像作者。作品几乎没有解说词，靠画面与声音推进叙事。她说自己拍的不是故事，是“一段时间本来的样子”，这种克制让很多观众在评论区写下自己的回忆。</p>
+          </div>
+          <div class="jf-author-row__nums">
+            <div><b>74</b> 部作品</div>
+            <div><b>16.3 万</b> 粉丝</div>
+            <button class="jf-author-row__btn" type="button" data-jf-author="拾光纪事">查看主页</button>
+          </div>
+        </article>
+
+        <article class="jf-author-row">
+          <div class="jf-author-row__avatar" style="background:linear-gradient(135deg,#2b6079,#8a6320)">野</div>
+          <div>
+            <h3 class="jf-author-row__name">野径计划 <span class="jf-author-row__field">户外活动</span></h3>
+            <p class="jf-author-row__bio">两人小组，一位负责路线一位负责拍摄。强调不美化徒步，保留迷路、疲惫与争执的真实片段。他们的观点是：户外影像的价值不在于风景多壮观，而在于人如何应对计划之外的状况。</p>
+          </div>
+          <div class="jf-author-row__nums">
+            <div><b>39</b> 部作品</div>
+            <div><b>6.5 万</b> 粉丝</div>
+            <button class="jf-author-row__btn" type="button" data-jf-author="野径计划">查看主页</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 图文索引 -->
+  <section class="jf-section jf-section--tight" aria-labelledby="jf-index-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">INDEX · 图文索引</span>
+          <h2 class="jf-h2" id="jf-index-title">内容索引与拍摄手记<span class="jf-h2__note">文字也能带路</span></h2>
+        </div>
+        <p class="jf-lead">除了视频，集芳阁云搜最新同步发布拍摄手记与内容索引，方便创作者按主题追溯原始素材与创作思路。</p>
+      </div>
+
+      <div class="jf-index-grid">
+        <article class="jf-index-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f3e7d2'/%3E%3Cg stroke='%238a6320' stroke-width='2.6' fill='none'%3E%3Cpath d='M50 240 L140 150 L230 200 L320 120 L370 160'/%3E%3C/g%3E%3Ccircle cx='320' cy='70' r='26' fill='%23c99b4e'/%3E%3Cg fill='%232b6079'%3E%3Crect x='60' y='250' width='300' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="拍摄手记配图：手绘路线线条与关键拍摄点标记" width="400" height="300" loading="lazy">
+          <div class="jf-index-item__body">
+            <h3 class="jf-index-item__title">手记｜我们如何在一条坡道上拍完 11 天</h3>
+            <p class="jf-index-item__desc">从踩点到收音，从被拒绝到被接纳。附 6 个实拍机位说明与早市时间表。</p>
+            <span class="jf-index-item__meta">官方影像组 · 阅读 1.2 万</span>
+          </div>
+        </article>
+
+        <article class="jf-index-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23132f3d'/%3E%3Cg stroke='%23e8c07d' stroke-width='2.4' fill='none' opacity='.9'%3E%3Crect x='70' y='70' width='110' height='80' rx='4'/%3E%3Crect x='210' y='110' width='130' height='90' rx='4'/%3E%3C/g%3E%3Cg fill='%23f6f1e7' opacity='.7'%3E%3Crect x='86' y='88' width='76' height='7' rx='3.5'/%3E%3Crect x='86' y='106' width='52' height='7' rx='3.5'/%3E%3C/g%3E%3C/svg%3E" alt="内容索引配图：剪辑工程窗口与素材面板的时间轴示意" width="400" height="300" loading="lazy">
+          <div class="jf-index-item__body">
+            <h3 class="jf-index-item__title">索引｜新手剪辑必看的 9 个片段顺序问题</h3>
+            <p class="jf-index-item__desc">以《一块屏幕背后的剪辑日常》为例，逐条拆解顺序、留白与节奏的判断依据。</p>
+            <span class="jf-index-item__meta">阿砾 · 阅读 3.4 万</span>
+          </div>
+        </article>
+
+        <article class="jf-index-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f6f1e7'/%3E%3Cg stroke='%232b6079' stroke-width='3' fill='none'%3E%3Cpath d='M60 230 L120 170 L180 210 L250 140 L320 190 L360 160'/%3E%3C/g%3E%3Cg fill='%23c99b4e'%3E%3Ccircle cx='120' cy='170' r='8'/%3E%3Ccircle cx='250' cy='140' r='8'/%3E%3C/g%3E%3Cg fill='%23132f3d' opacity='.15'%3E%3Crect x='40' y='250' width='320' height='24' rx='12'/%3E%3C/g%3E%3C/svg%3E" alt="户外手记配图：海拔变化曲线与途经补给点标识" width="400" height="300" loading="lazy">
+          <div class="jf-index-item__body">
+            <h3 class="jf-index-item__title">攻略｜三百公里骑行路线的补给与备用方案</h3>
+            <p class="jf-index-item__desc">把视频里没讲完的路况、补给点和退出方案写清楚，附可下载的表格版本。</p>
+            <span class="jf-index-item__meta">野径计划 · 阅读 8760</span>
+          </div>
+        </article>
+
+        <article class="jf-index-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%231f4d63'/%3E%3Cg fill='%23f0c98a' opacity='.85'%3E%3Ccircle cx='200' cy='130' r='52'/%3E%3C/g%3E%3Cg stroke='%23f6f1e7' stroke-width='2.4' fill='none' opacity='.7'%3E%3Cpath d='M60 240 C120 200 180 250 240 210 C300 170 340 220 380 190'/%3E%3C/g%3E%3C/svg%3E" alt="专题手记配图：炉火暖光色调与冬季街头轮廓组合" width="400" height="300" loading="lazy">
+          <div class="jf-index-item__body">
+            <h3 class="jf-index-item__title">手记｜冬季专题的色温统一与收音取舍</h3>
+            <p class="jf-index-item__desc">五地拍摄如何保持视觉一致，以及为什么我们最终选择保留更多环境声。</p>
+            <span class="jf-index-item__meta">拾光纪事 · 阅读 6540</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M15 深度解析 / 关键词长文 -->
+  <section class="jf-section jf-deep" id="jf-deep" aria-labelledby="jf-deep-title">
+    <div class="jf-wrap">
+      <div class="jf-deep__grid">
+        <div class="jf-deep__sticky">
+          <span class="jf-eyebrow">ABOUT · 品牌解析</span>
+          <h2 class="jf-h2" id="jf-deep-title">关于集芳阁云搜最新</h2>
+          <p class="jf-deep__quote">“把芳华收进阁楼，把搜索做成一扇窗。”<br>这是品牌创立时写下的第一句话，也是我们八年来没有改过的方向。</p>
+        </div>
+
+        <div class="jf-deep__body">
+          <h3>一、品牌由来：从一间旧阁楼到一间影像工作室</h3>
+          <p>集芳阁云搜最新这个名字，起源于创始团队最初办公的一间老阁楼。那时团队成员只有四个人，白天做商业拍摄，晚上把拍剩的素材剪成短片。阁楼里堆满硬盘和旧书，朋友来访时总会问一句“最近又拍了什么”。于是他们把这句话做成了一档小小的社区放映栏目，取名“云搜”，意为在云端的素材里重新搜出值得被看见的部分。这个名字后来变成了品牌本身，也决定了集芳阁云搜最新不是一家以流量为唯一目标的平台，而是一个愿意为“值得”多花时间的视频品牌。</p>
+          <p>八年过去，团队从四个人扩展到六十余人，办公地点换过三次，但工作方法保留了下来：每个专题先由编辑与创作者共同讨论三个月，再决定拍什么、怎么拍、什么时候发。集芳阁云搜最新官网上的每一条视频，都经历过至少两轮内部看片会，这是我们对“官方发布”四个字最基本的尊重。</p>
+
+          <figure class="jf-deep__figure">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23f3e7d2'/%3E%3Cg fill='%232b6079'%3E%3Crect x='120' y='200' width='180' height='180' rx='6'/%3E%3Crect x='330' y='150' width='180' height='230' rx='6' opacity='.85'/%3E%3Crect x='540' y='240' width='150' height='140' rx='6' opacity='.7'/%3E%3C/g%3E%3Cg fill='%23e8c07d'%3E%3Crect x='150' y='230' width='50' height='50' rx='4'/%3E%3Crect x='220' y='230' width='50' height='50' rx='4'/%3E%3Crect x='360' y='180' width='50' height='50' rx='4'/%3E%3Crect x='430' y='180' width='50' height='50' rx='4'/%3E%3C/g%3E%3Cg fill='%23132f3d' opacity='.18'%3E%3Crect x='0' y='380' width='800' height='70'/%3E%3C/g%3E%3C/svg%3E" alt="集芳阁云搜最新品牌解析配图：阁楼街区的老建筑群与暖色窗光" width="800" height="450" loading="lazy">
+            <figcaption>品牌视觉中的“阁楼”意象：旧建筑、暖窗光与堆叠的时间。</figcaption>
+          </figure>
+
+          <h3>二、内容标准：为什么我们坚持原创、正版与高清</h3>
+          <p>视频行业最常见的问题不是没有内容，而是内容太多却没有分辨度。集芳阁云搜最新在早期就确立了三条内容标准。第一是原创：平台不搬运、不二次剪辑他人作品，所有上线内容必须由创作者本人或授权团队上传，并保留完整的创作说明。第二是正版：音乐、字体、画面素材均需提供授权链路，官方每年为此支付固定预算，也帮助创作者统一采购常见素材包，降低合规成本。第三是高清：1080P 是底线，重点专题统一采用 4K 拍摄与交付，并在播放端提供码率自适应，确保不同网络环境下都能看到真实的画面质感。</p>
+          <p>这三条标准并不讨巧，甚至会限制内容增长速度。但从长期看，正是它们让集芳阁云搜最新在高清影像这个垂直领域建立了口碑。很多观众在评论区提到，选择在这里看片，是因为“不会看到糊成一片的盗录版本”。对一个视频品牌来说，这种信任比任何一次爆款都珍贵。官网的每一集内容下方，都标注了画质规格、拍摄地与授权信息，这是我们对用户的承诺，也是对创作者的尊重。</p>
+
+          <h3>三、内容生态：创作者、企业与社区的三向循环</h3>
+          <p>集芳阁云搜最新把自己定位为一个持续运营的内容生态，而不是一个一次性分发的渠道。生态的第一环是创作者：平台提供选题共创、设备借用、后期支持与发行推广，同时保留创作者的署名权与商业自主权。第二环是企业：我们为品牌方提供定制纪录片、专题植入与内容代运营服务，但坚持不干预创作结论，客户可以看到成片，可以提出事实性修改，但不能要求改变叙述立场。第三环是社区：观众不只是观看者，他们可以投稿、可以投票、可以参加线下放映会，也可以在评论区发起新的选题讨论。</p>
+          <p>这三环之间形成的循环，让集芳阁云搜最新能够在保持品质的同时维持活力。一个典型的例子是《小城十二点》专题：最初只是三位创作者的私人计划，在社区投票中获得最高票后，平台追加预算扩展为十二集，随后又被两家地方文化机构引入线下展映。这种从社区中生长出来的内容，比自上而下的策划更接近真实生活，也更能体现“陪伴”与“成长”这两个品牌关键词。</p>
+
+          <h3>四、面向未来：把工具做轻，把内容做重</h3>
+          <p>接下来的一年，集芳阁云搜最新会把更多精力放在内容索引与创作工具上。官方发布的内容索引工具将支持按主题、拍摄地、器材、时长等多维筛选，帮助创作者快速找到参考片；同时上线脚本灵感库与剪辑模板，降低新作者的起步门槛。但我们不会把这些工具做成流量的加速器，它们只是让认真创作的人少走一点弯路。品牌的判断标准始终没有改变：一条视频是否值得被留下来，取决于它是否诚实地记录了某个具体的人、某段具体的时间。</p>
+          <p>这也是集芳阁云搜最新希望被记住的样子——一个愿意为真实付出代价、为品质多等一等的视频品牌。我们相信，内容生态的价值不在于规模，而在于它能否让创作者有尊严地工作，让观众有耐心地观看，让每一个普通人的日常都有机会被认真对待。这既是官网首页写给所有来访者的话，也是团队每天工作时提醒自己的话。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- M8 用户评价（双列短评） -->
+  <section class="jf-section jf-section--tight" id="jf-reviews" aria-labelledby="jf-reviews-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">VOICES · 用户口碑</span>
+          <h2 class="jf-h2" id="jf-reviews-title">来自社区的真实评价<span class="jf-h2__note">每一条都来自观看之后</span></h2>
+        </div>
+        <p class="jf-lead">口碑是集芳阁云搜最新最看重的资产。以下评价来自社区用户与创作者，保留原始语气与长度差异。</p>
+      </div>
+
+      <div class="jf-reviews">
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★★</div>
+          <p class="jf-review__text">看了《山城早市十二时辰》，第二天专门早起去了家附近的菜市场。原来我每天路过的地方，也可以被拍得这么有分量。剪辑没有刻意煽情，这点特别难得。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">林间有风</span><span>· 观看 3 年</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★☆</div>
+          <p class="jf-review__text">教程类内容确实扎实，阿砾那期讲布光的我反复看了三遍，笔记记了两页。唯一想提的是希望每期能附一个可下载的参数表，边看边暂停有点麻烦。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">半格胶片</span><span>· 摄影爱好者</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★★</div>
+          <p class="jf-review__text">从投稿到上线大概三周，编辑给了很细的修改建议，不是那种客套的“很好请继续努力”，而是具体到第几分钟的镜头可以再等两秒。这种反馈对新人太重要了。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">西南偏南</span><span>· 社区创作者</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★★</div>
+          <p class="jf-review__text">画质是真的好。家里电视投屏看《一间厨房的四季》，灶台的油烟都清清楚楚，但又不会觉得脏。能感觉到拍摄的人对生活是有感情的。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">豆浆两碗</span><span>· 普通观众</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★☆☆</div>
+          <p class="jf-review__text">整体喜欢，就是更新节奏有点慢，一个专题六集要等两个月。理解制作周期，但还是希望官方能多放一点拍摄花絮，等待的时候也有东西看。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">十一号站台</span><span>· 观看 1 年</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★★</div>
+          <p class="jf-review__text">线下放映会去过一次，在一个很小的社区活动室。片子里的人就坐在后排，放完大家一起聊了四十分钟。这种氛围在现在的平台里太少见了，希望多办。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">老周不姓周</span><span>· 社区用户</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★☆</div>
+          <p class="jf-review__text">《给老楼装一部无障碍电梯》我转发给了家里长辈。拍得很克制，没有把谁塑造成反派，把协商的过程讲清楚了。这种题材不讨巧，但确实值得被拍。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">安静的修表匠</span><span>· 观看 2 年</span></div>
+        </article>
+
+        <article class="jf-review">
+          <div class="jf-review__stars">★★★★★</div>
+          <p class="jf-review__text">收藏夹里存了十几集，准备放假了慢慢看。喜欢这里的一个原因是不用担心点开是标题党，简介写什么就是什么，这在短视频时代已经算是品质了。</p>
+          <div class="jf-review__foot"><span class="jf-review__name">橘子汽水加冰</span><span>· 普通观众</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M10 企业动态 + M11 合作品牌 -->
+  <section class="jf-section" id="jf-updates" aria-labelledby="jf-updates-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">NEWS · 企业动态</span>
+          <h2 class="jf-h2" id="jf-updates-title">企业动态与官方发布<span class="jf-h2__note">持续运营 · 每月更新</span></h2>
+        </div>
+        <p class="jf-lead">集芳阁云搜最新官网每月同步企业动态、内容更新与扶持计划进展，所有公告均以官方口径发布。</p>
+      </div>
+
+      <div class="jf-timeline">
+        <div class="jf-timeline__item">
+          <div class="jf-timeline__date">2026 / 11</div>
+          <div class="jf-timeline__dot" aria-hidden="true"></div>
+          <div class="jf-timeline__body">
+            <h3>「芳华新声」创作挑战赛报名开启</h3>
+            <p>面向全部创作者开放报名，主题为“我身边被低估的人”。官方提供命题素材包、拍摄指南与两场线上答疑，投稿截止 12 月 8 日，评审结果于 12 月 20 日公布。</p>
+          </div>
+        </div>
+        <div class="jf-timeline__item">
+          <div class="jf-timeline__date">2026 / 10</div>
+          <div class="jf-timeline__dot" aria-hidden="true"></div>
+          <div class="jf-timeline__body">
+            <h3>内容索引工具 v2.4 上线，支持标签筛选</h3>
+            <p>新版索引工具新增按主题、拍摄地、器材、时长多维筛选，并支持收藏夹跨端同步。创作者可在后台上传素材说明，系统将自动生成结构化索引。</p>
+          </div>
+        </div>
+        <div class="jf-timeline__item">
+          <div class="jf-timeline__date">2026 / 09</div>
+          <div class="jf-timeline__dot" aria-hidden="true"></div>
+          <div class="jf-timeline__body">
+            <h3>冬季专题《炉火与人间》正式开机</h3>
+            <p>专题组赴五座城市拍摄，同期启动创作者联合投稿。专题计划上线六集，首集《旧铁炉里的冬天》已于本月完成内部看片会。</p>
+          </div>
+        </div>
+        <div class="jf-timeline__item">
+          <div class="jf-timeline__date">2026 / 08</div>
+          <div class="jf-timeline__dot" aria-hidden="true"></div>
+          <div class="jf-timeline__body">
+            <h3>创作者扶持计划第二期完成签约</h3>
+            <p>本期共签约 36 位创作者，覆盖纪录、手作、户外与美食四个方向。平台提供为期一年的设备支持与发行推广，并设置季度评审机制。</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="margin:34px 0 16px;font-size:18px;">合作品牌与伙伴</h3>
+      <div class="jf-partners">
+        <div class="jf-partner">
+          <div class="jf-partner__logo" style="background:linear-gradient(135deg,#2b6079,#0d1c24)">山</div>
+          <div class="jf-partner__name">山行影像器材</div>
+          <div class="jf-partner__desc">设备支持伙伴</div>
+        </div>
+        <div class="jf-partner">
+          <div class="jf-partner__logo" style="background:linear-gradient(135deg,#c99b4e,#8a6320)">纸</div>
+          <div class="jf-partner__name">纸上文化</div>
+          <div class="jf-partner__desc">内容联合出品</div>
+        </div>
+        <div class="jf-partner">
+          <div class="jf-partner__logo" style="background:linear-gradient(135deg,#1f4d63,#132f3d)">城</div>
+          <div class="jf-partner__name">城市公共空间研究中心</div>
+          <div class="jf-partner__desc">学术支持机构</div>
+        </div>
+        <div class="jf-partner">
+          <div class="jf-partner__logo" style="background:linear-gradient(135deg,#8a6320,#2b6079)">光</div>
+          <div class="jf-partner__name">拾光放映联盟</div>
+          <div class="jf-partner__desc">线下展映合作</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- M12 FAQ -->
+  <section class="jf-section jf-section--tight" id="jf-faq" aria-labelledby="jf-faq-title">
+    <div class="jf-wrap">
+      <div class="jf-section__head">
+        <div>
+          <span class="jf-eyebrow">HELP · 帮助中心</span>
+          <h2 class="jf-h2" id="jf-faq-title">关于集芳阁云搜最新的常见问题<span class="jf-h2__note">投稿、观看与授权说明</span></h2>
+        </div>
+        <p class="jf-lead">如果你的问题没有出现在这里，可以通过页面底部的联系方式与我们取得联系，工作日 48 小时内回复。</p>
+      </div>
+
+      <div class="jf-faq">
+        <details>
+          <summary>如何向集芳阁云搜最新投稿？对设备有硬性要求吗？</summary>
+          <p>进入页面任意“投稿”入口填写表单，上传作品链接或素材片段即可。设备没有硬性要求，但画面需达到 1080P 且音画同步。官方更看重选题的真实度与完整性，手机拍摄的纪录短片同样可以入选。初审一般在 7 个工作日内完成，通过后会安排编辑对接。</p>
+        </details>
+        <details>
+          <summary>平台上的视频可以下载或二次使用吗？</summary>
+          <p>所有内容版权归创作者或集芳阁云搜最新所有。个人观看不限制，但下载、搬运、二次剪辑与商业使用需获得书面授权。如需用于教学、展映或媒体引用，可通过官网联系页提交申请，并注明出处与用途。</p>
+        </details>
+        <details>
+          <summary>为什么部分专题的更新间隔较长？</summary>
+          <p>专题采用长期跟拍制作，单集平均制作周期在四至六周，需要经历拍摄、粗剪、内部看片、修改与调色等流程。为保证品质，我们不会为了更新频率压缩周期。专题页会标注预计上线时间，突发调整也会在公告条与动态栏目说明。</p>
+        </details>
+        <details>
+          <summary>创作者扶持计划如何申请？需要全职创作吗？</summary>
+          <p>扶持计划每年开放两期，申请时不要求全职，也不限制所在地。评审主要看近半年的作品完成度与选题持续性。入选后平台提供设备借用、后期支持与发行推广，并设置季度评审，未达标不影响后续再次申请。</p>
+        </details>
+        <details>
+          <summary>如何参加“芳华新声”创作挑战赛？</summary>
+          <p>在活动页报名并领取命题素材包，按主题完成 5 至 20 分钟的影像作品后提交。作品需为原创，且未在其他平台首发。评审由编辑部初选、社区投票复选与终审组成，获奖作品会在官网专题页与线下放映会同步展出。</p>
+        </details>
+        <details>
+          <summary>线下放映会的信息在哪里获取？</summary>
+          <p>放映会通常在动态栏目与社区公告中提前两周公布，场地多为社区活动室、独立书店与小剧场。参与方式为线上预约，免费入场，名额有限。部分场次会邀请片中人物与作者到场交流。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- M13 投稿 CTA -->
+  <section class="jf-section jf-section--tight" aria-labelledby="jf-cta-title">
+    <div class="jf-wrap">
+      <div class="jf-cta">
+        <div>
+          <h2 id="jf-cta-title">你的故事，值得被认真拍下来</h2>
+          <p>集芳阁云搜最新长期开放投稿与选题合作。无论你是第一次拿起相机，还是已经拍了十年，只要作品真实、完整、有细节，我们都愿意为它留出一个位置。</p>
+        </div>
+        <div class="jf-cta__actions">
+          <button class="jf-btn jf-btn--gold" type="button" data-jf-open="submit">立即投稿</button>
+          <button class="jf-btn jf-btn--line" type="button" data-jf-copy>复制本页链接</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="jf-footer">
+  <div class="jf-wrap">
+    <div class="jf-footer__grid">
+      <div>
+        <div class="jf-footer__brand">
+          <span class="jf-brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 7h14M5 12h14M5 17h8" stroke="#e8c07d" stroke-width="2.2" stroke-linecap="round"/>
+              <circle cx="17.5" cy="16.5" r="3.2" stroke="#e8c07d" stroke-width="1.8"/>
+            </svg>
+          </span>
+          <span class="jf-brand__text">
+            <span class="jf-brand__name">集芳阁云搜最新</span>
+            <span class="jf-brand__sub">JIFANG VIDEO</span>
+          </span>
+        </div>
+        <p>集芳阁云搜最新官方网站。专注人文影像与生活美学视频内容，坚持原创、正版、高清，为创作者与企业搭建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h3>内容导航</h3>
+        <ul>
+          <li><a href="#jf-focus">焦点影像</a></li>
+          <li><a href="#jf-videos">视频内容</a></li>
+          <li><a href="#jf-topics">专题企划</a></li>
+          <li><a href="#jf-authors">创作者名录</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>品牌与支持</h3>
+        <ul>
+          <li><a href="#jf-deep">品牌故事</a></li>
+          <li><a href="#jf-updates">企业动态</a></li>
+          <li><a href="#jf-reviews">用户口碑</a></li>
+          <li><a href="#jf-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>联系与投稿</h3>
+        <ul>
+          <li><a href="#" data-jf-open="submit">作品投稿入口</a></li>
+          <li><a href="#" data-jf-open="contact">合作与授权咨询</a></li>
+          <li><a href="#" data-jf-open="feedback">问题反馈</a></li>
+          <li><a href="#" data-jf-copy>分享本页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jf-footer__bottom">
+      <span>© 2018–2026 集芳阁云搜最新 版权所有 · 官方网站 · 持续运营中</span>
+      <span>品牌备案号：芳阁影像备 2026-0118 号 · 内容版权归创作者与平台共同所有</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jf-top" id="jf-top-btn" type="button" aria-label="回到顶部">↑</button>
+
+<!-- 弹窗：投稿 -->
+<div class="jf-modal" id="jf-modal-submit" role="dialog" aria-modal="true" aria-labelledby="jf-submit-title">
+  <div class="jf-modal__box">
+    <div class="jf-modal__head">
+      <h3 id="jf-submit-title">作品投稿</h3>
+      <button class="jf-modal__close" type="button" data-jf-close aria-label="关闭">✕</button>
+    </div>
+    <p>填写作品基本信息，编辑部将在 7 个工作日内完成初审并邮件回复。请确保作品为原创且未在其他平台首发。</p>
+    <div class="jf-field">
+      <label for="jf-submit-name">作者昵称</label>
+      <input id="jf-submit-name" type="text" placeholder="例如：拾光纪事">
+    </div>
+    <div class="jf-field">
+      <label for="jf-submit-title-input">作品标题</label>
+      <input id="jf-submit-title-input" type="text" placeholder="例如：河岸上的书店">
+    </div>
+    <div class="jf-field">
+      <label for="jf-submit-desc">作品简介与创作说明</label>
+      <textarea id="jf-submit-desc" rows="3" placeholder="简述拍摄对象、时长与拍摄周期"></textarea>
+    </div>
+    <div class="jf-form-tip" id="jf-submit-tip"></div>
+    <div class="jf-actions">
+      <button class="jf-btn jf-btn--primary" type="button" id="jf-submit-send">提交投稿</button>
+    </div>
+  </div>
+</div>
+
+<!-- 弹窗：评论 -->
+<div class="jf-modal" id="jf-modal-comment" role="dialog" aria-modal="true" aria-labelledby="jf-comment-title">
+  <div class="jf-modal__box">
+    <div class="jf-modal__head">
+      <h3 id="jf-comment-title">参与讨论</h3>
+      <button class="jf-modal__close" type="button" data-jf-close aria-label="关闭">✕</button>
+    </div>
+    <p>说说你在片子里看到的具体细节。优质评论有机会被选入线下放映会的讨论环节。</p>
+    <div class="jf-field">
+      <label for="jf-comment-input">你的评论</label>
+      <textarea id="jf-comment-input" rows="4" placeholder="例如：第 6 分钟那个关门的镜头，让我想起小时候的院子。"></textarea>
+    </div>
+    <div class="jf-form-tip" id="jf-comment-tip"></div>
+    <div class="jf-actions">
+      <button class="jf-btn jf-btn--primary" type="button" id="jf-comment-send">发布评论</button>
+    </div>
+  </div>
+</div>
+
+<!-- 弹窗：作者信息 -->
+<div class="jf-modal" id="jf-modal-author" role="dialog" aria-modal="true" aria-labelledby="jf-author-title">
+  <div class="jf-modal__box">
+    <div class="jf-modal__head">
+      <h3 id="jf-author-title">创作者主页</h3>
+      <button class="jf-modal__close" type="button" data-jf-close aria-label="关闭">✕</button>
+    </div>
+    <p id="jf-author-text">该创作者的完整作品列表与拍摄手记可在其主页查看，支持按主题与年份筛选。</p>
+    <div class="jf-actions">
+      <button class="jf-btn jf-btn--ghost" type="button" data-jf-close>知道了</button>
+    </div>
+  </div>
+</div>
+
+<!-- 弹窗：联系 -->
+<div class="jf-modal" id="jf-modal-contact" role="dialog" aria-modal="true" aria-labelledby="jf-contact-title">
+  <div class="jf-modal__box">
+    <div class="jf-modal__head">
+      <h3 id="jf-contact-title">合作与授权咨询</h3>
+      <button class="jf-modal__close" type="button" data-jf-close aria-label="关闭">✕</button>
+    </div>
+    <p>媒体引用、线下展映、品牌定制与内容授权请发送说明至官方合作邮箱，邮件标题请注明“合作类型 + 机构名称”。</p>
+    <p style="font-weight:600;color:#334a55;">合作邮箱：partner@jifangvideo.example　｜　工作日 48 小时内回复</p>
+    <div class="jf-actions">
+      <button class="jf-btn jf-btn--primary" type="button" data-jf-copy>复制联系方式</button>
+      <button class="jf-btn jf-btn--ghost" type="button" data-jf-close>关闭</button>
+    </div>
+  </div>
+</div>
+
+<!-- 弹窗：反馈 -->
+<div class="jf-modal" id="jf-modal-feedback" role="dialog" aria-modal="true" aria-labelledby="jf-feedback-title">
+  <div class="jf-modal__box">
+    <div class="jf-modal__head">
+      <h3 id="jf-feedback-title">问题反馈</h3>
+      <button class="jf-modal__close" type="button" data-jf-close aria-label="关闭">✕</button>
+    </div>
+    <p>如遇播放异常、版权争议或内容错误，请描述具体页面与问题，我们会尽快核查。</p>
+    <div class="jf-field">
+      <label for="jf-feedback-input">问题描述</label>
+      <textarea id="jf-feedback-input" rows="3" placeholder="请描述你遇到的问题"></textarea>
+    </div>
+    <div class="jf-actions">
+      <button class="jf-btn jf-btn--primary" type="button" id="jf-feedback-send">提交反馈</button>
+    </div>
+  </div>
+</div>
+
+<div class="jf-toast" id="jf-toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 工具 ---------- */
+  var toastEl = document.getElementById("jf-toast");
+  var toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("is-show"); }, 2200);
+  }
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var menuBtn = document.getElementById("jf-menu-btn");
+  var nav = document.getElementById("jf-nav");
+  if(menuBtn && nav){
+    menuBtn.addEventListener("click", function(){
+      var open = nav.classList.toggle("is-open");
+      menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      menuBtn.textContent = open ? "✕" : "☰";
+    });
+    nav.addEventListener("click", function(e){
+      if(e.target && e.target.tagName === "A" && nav.classList.contains("is-open")){
+        nav.classList.remove("is-open");
+        menuBtn.setAttribute("aria-expanded","false");
+        menuBtn.textContent = "☰";
+      }
+    });
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById("jf-search-input");
+  var searchBtn = document.getElementById("jf-search-btn");
+  var searchFeedback = document.getElementById("jf-search-feedback");
+  var searchIndex = [
+    "山城早市十二时辰","炉火与人间","三分钟学会拍一碗面","修复一把椅子要多久",
+    "河岸上的书店","给老楼装一部无障碍电梯","我从老屋搬走前最后一天",
+    "骑行三百公里的地图之外","一块屏幕背后的剪辑日常","一间厨房的四季",
+    "周与舟","阿砾","沥川记录","拾光纪事","野径计划","芳华新声","小城十二点"
+  ];
+  function doSearch(){
+    var q = (searchInput && searchInput.value ? searchInput.value : "").trim();
+    if(!searchFeedback) return;
+    if(!q){
+      searchFeedback.textContent = "输入视频标题、创作者昵称或专题名称试试，例如“早市”“阿砾”“专题”。";
+      searchFeedback.classList.add("is-open");
+      return;
+    }
+    var hits = searchIndex.filter(function(item){ return item.indexOf(q) !== -1; });
+    if(hits.length){
+      searchFeedback.textContent = "找到 " + hits.length + " 条相关内容：" + hits.slice(0,4).join("、") + (hits.length > 4 ? " 等" : "");
+    }else{
+      searchFeedback.textContent = "暂未匹配到“" + q + "”，试试更短的关键词，或通过投稿入口推荐你希望看到的内容。";
+    }
+    searchFeedback.classList.add("is-open");
+  }
+  if(searchBtn){ searchBtn.addEventListener("click", doSearch); }
+  if(searchInput){
+    searchInput.addEventListener("keydown", function(e){
+      if(e.key === "Enter"){ e.preventDefault(); doSearch(); }
+    });
+    searchInput.addEventListener("input", function(){
+      if(searchFeedback && searchFeedback.textContent.trim()){
+        searchFeedback.classList.remove("is-open");
+        searchFeedback.textContent = "";
+      }
+    });
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener("click", function(e){
+    var likeBtn = e.target.closest ? e.target.closest("[data-jf-like]") : null;
+    if(likeBtn){
+      var b = likeBtn.querySelector("b");
+      var num = b ? parseInt(b.textContent.replace(/[^\d]/g, ""), 10) : 0;
+      if(isNaN(num)) num = 0;
+      var on = likeBtn.classList.toggle("is-on");
+      var next = on ? num + 1 : Math.max(0, num - 1);
+      if(b) b.textContent = String(next);
+      likeBtn.firstChild.nodeValue = on ? "♥ 已赞 " : "♡ 点赞 ";
+      toast(on ? "已点赞，感谢你的支持" : "已取消点赞");
+      return;
+    }
+    var saveBtn = e.target.closest ? e.target.closest("[data-jf-save]") : null;
+    if(saveBtn){
+      var sOn = saveBtn.classList.toggle("is-on");
+      saveBtn.textContent = sOn ? "♥ 已收藏" : "☆ 收藏";
+      toast(sOn ? "已加入收藏夹" : "已取消收藏");
+      return;
+    }
+  });
+
+  /* ---------- 弹窗通用 ---------- */
+  var modals = document.querySelectorAll(".jf-modal");
+  function openModal(id){
+    var m = document.getElementById("jf-modal-" + id);
+    if(!m) return;
+    modals.forEach(function(x){ x.classList.remove("is-open"); });
+    m.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+  function closeAllModals(){
+    modals.forEach(function(x){ x.classList.remove("is-open"); });
+    document.body.style.overflow = "";
+  }
+  document.addEventListener("click", function(e){
+    var opener = e.target.closest ? e.target.closest("[data-jf-open]") : null;
+    if(opener){
+      e.preventDefault();
+      openModal(opener.getAttribute("data-jf-open"));
+      return;
+    }
+    var closer = e.target.closest ? e.target.closest("[data-jf-close]") : null;
+    if(closer){ e.preventDefault(); closeAllModals(); return; }
+    if(e.target.classList && e.target.classList.contains("jf-modal")){ closeAllModals(); }
+  });
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape"){ closeAllModals(); }
+  });
+
+  /* ---------- 评论入口 ---------- */
+  document.addEventListener("click", function(e){
+    var c = e.target.closest ? e.target.closest("[data-jf-comment]") : null;
+    if(c){ openModal("comment"); }
+  });
+
+  /* ---------- 作者弹窗 ---------- */
+  document.addEventListener("click", function(e){
+    var a = e.target.closest ? e.target.closest("[data-jf-author]") : null;
+    if(!a) return;
+    var name = a.getAttribute("data-jf-author");
+    var titleEl = document.getElementById("jf-author-title");
+    var textEl = document.getElementById("jf-author-text");
+    if(titleEl) titleEl.textContent = name + " · 创作者主页";
+    if(textEl) textEl.textContent = name + " 的完整作品列表、拍摄手记与创作访谈可在主页查看，支持按主题与年份筛选，并可订阅更新提醒。";
+    openModal("author");
+  });
+
+  /* ---------- 表单提交 ---------- */
+  var submitTip = document.getElementById("jf-submit-tip");
+  var submitSend = document.getElementById("jf-submit-send");
+  if(submitSend){
+    submitSend.addEventListener("click", function(){
+      var nameEl = document.getElementById("jf-submit-name");
+      var titleEl = document.getElementById("jf-submit-title-input");
+      var descEl = document.getElementById("jf-submit-desc");
+      var name = nameEl ? nameEl.value.trim() : "";
+      var title = titleEl ? titleEl.value.trim() : "";
+      var desc = descEl ? descEl.value.trim() : "";
+      if(!name || !title || !desc){
+        if(submitTip) submitTip.textContent = "请完整填写昵称、作品标题与创作说明后再提交。";
+        return;
+      }
+      if(submitTip) submitTip.textContent = "";
+      closeAllModals();
+      toast("投稿已提交，我们会在 7 个工作日内回复");
+    });
+  }
+
+  var commentTip = document.getElementById("jf-comment-tip");
+  var commentSend = document.getElementById("jf-comment-send");
+  if(commentSend){
+    commentSend.addEventListener("click", function(){
+      var cEl = document.getElementById("jf-comment-input");
+      var val = cEl ? cEl.value.trim() : "";
+      if(!val){
+        if(commentTip) commentTip.textContent = "写一点具体细节吧，空评论无法发布。";
+        return;
+      }
+      if(commentTip) commentTip.textContent = "";
+      closeAllModals();
+      toast("评论已发布，感谢你留下的细节");
+    });
+  }
+
+  var feedbackSend = document.getElementById("jf-feedback-send");
+  if(feedbackSend){
+    feedbackSend.addEventListener("click", function(){
+      closeAllModals();
+      toast("反馈已收到，我们会尽快核查");
+    });
+  }
+
+  /* ---------- 复制链接 ---------- */
+  function clipboardCopy(text){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function(resolve, reject){
+      try{
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        resolve();
+      }catch(err){ reject(err); }
+    });
+  }
+  document.addEventListener("click", function(e){
+    var c = e.target.closest ? e.target.closest("[data-jf-copy]") : null;
+    if(!c) return;
+    e.preventDefault();
+    var isContact = c.closest("#jf-modal-contact");
+    var text = isContact ? "合作邮箱：partner@jifangvideo.example" : (document.title + "（集芳阁云搜最新官方网站）");
+    clipboardCopy(text).then(function(){
+      toast(isContact ? "联系方式已复制" : "链接信息已复制，可粘贴分享");
+    }).catch(function(){
+      toast("复制未成功，请手动选择文本");
+    });
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById("jf-top-btn");
+  function onScroll(){
+    if(!topBtn) return;
+    if(window.scrollY > 520){ topBtn.classList.add("is-show"); }
+    else{ topBtn.classList.remove("is-show"); }
+  }
+  window.addEventListener("scroll", onScroll, { passive:true });
+  if(topBtn){
+    topBtn.addEventListener("click", function(){
+      window.scrollTo({ top:0, behavior:"smooth" });
+    });
+  }
+  onScroll();
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = document.querySelectorAll("[data-jf-count]");
+  function animateCount(el){
+    var target = parseInt(el.getAttribute("data-jf-count"), 10) || 0;
+    var em = el.querySelector("em");
+    var suffix = em ? em.outerHTML : "";
+    var start = null;
+    var dur = 1100;
+    function step(ts){
+      if(start === null) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(target * eased);
+      el.innerHTML = val + suffix;
+      if(p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if("IntersectionObserver" in window && counters.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          animateCount(en.target);
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold:0.5 });
+    counters.forEach(function(c){ io.observe(c); });
+  }else{
+    counters.forEach(function(c){
+      var t = parseInt(c.getAttribute("data-jf-count"),10) || 0;
+      var em = c.querySelector("em");
+      c.innerHTML = t + (em ? em.outerHTML : "");
+    });
+  }
+
+  /* ---------- 锚点平滑偏移（预留吸顶高度） ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener("click", function(e){
+      var href = link.getAttribute("href");
+      if(!href || href === "#" || href.length < 2) return;
+      var target = document.querySelector(href);
+      if(!target) return;
+      e.preventDefault();
+      var shell = document.querySelector(".jf-sticky-shell");
+      var offset = shell ? shell.getBoundingClientRect().height + 12 : 80;
+      var y = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: Math.max(0, y), behavior:"smooth" });
+    });
+  });
+
+})();
+</script>
+</body>
+              </html>
